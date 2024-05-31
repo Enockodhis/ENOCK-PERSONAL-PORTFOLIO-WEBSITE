@@ -15,7 +15,8 @@ Creating a personal portfolio website is a fantastic way to showcase your skills
      ![image](https://github.com/Enockodhis/ENOCK-PERSONAL-PORTFOLIO-WEBSITE/assets/107674019/2df1eb10-60a0-46df-852c-c36da134496e)
 
 4.) Portfolio: Showcase your projects with descriptions, images, and links.
-     ![image](https://github.com/Enockodhis/ENOCK-PERSONAL-PORTFOLIO-WEBSITE/assets/107674019/c5cf2afd-7e9e-45ef-8f34-d83069aaa87f)
+     ![image](https://github.com/Enockodhis/ENOCK-PERSONAL-PORTFOLIO-WEBSITE/assets/107674019/8ea5ec68-44bf-4ee3-8bf5-4fe128b3678e)
+
 
 5.) Contact: Make it easy for visitors to get in touch with you by including a contact form or your email address and social media links.
      ![image](https://github.com/Enockodhis/ENOCK-PERSONAL-PORTFOLIO-WEBSITE/assets/107674019/731cef48-7ea6-40b9-ba3a-c2b96b1087c8)
