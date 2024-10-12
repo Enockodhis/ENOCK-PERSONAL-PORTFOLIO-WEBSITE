@@ -9,10 +9,10 @@ Creating a personal portfolio website is a fantastic way to showcase your skills
      mobile-responsive for optimal viewing on all devices.
      
 2.) Create Home Page Section: Introduce yourself and provide an overview of your skills and expertise.
-     ![image](https://github.com/Enockodhis/ENOCK-PERSONAL-PORTFOLIO-WEBSITE/assets/107674019/924de045-9b14-45ff-9c3c-794853762708)
+     ![image](https://github.com/user-attachments/assets/ca5828cd-537f-41ba-8273-c382fe594abe)
 
 3.) About Me: Share your background, education, work experience, and any relevant certifications or awards.
-     ![image](https://github.com/Enockodhis/ENOCK-PERSONAL-PORTFOLIO-WEBSITE/assets/107674019/2df1eb10-60a0-46df-852c-c36da134496e)
+     ![image](https://github.com/user-attachments/assets/a9ac950a-e4d6-452f-a6d3-f78bb1212ee9)
 
 4.) Portfolio: Showcase your projects with descriptions, images, and links.
      ![image](https://github.com/Enockodhis/ENOCK-PERSONAL-PORTFOLIO-WEBSITE/assets/107674019/8ea5ec68-44bf-4ee3-8bf5-4fe128b3678e)
