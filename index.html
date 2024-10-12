@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+         <h1>ENOCK.</h1>
+         <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+         </ul>
+         <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Software Quality Engineer, Data Scientist and Fintech Engineer.</p>
+            <h2>Hi 👋, I'm <span>Enock</span><br>Odhiambo Omondi</h2>
+        </div>
+    </div>
+</div>
+
+<!-------------------------------about-------------------------------------------->
+
+<div id="about">
+ <div class="container">
+    <div class="row">
+        <div class="about-col-1">
+         <img class="enockcover" src="/images/enockImg.jpg">
+        </div>
+        <div class="about-col-2">
+         <h3 class="sub-title">About Me</h3>
+         <p>I'm Software Quality Engineer, Data Scientist and fintech specialist who is deeply motivated, flexible, and focused on finding solutions. My approach is centered on data-driven insights and research, which I leverage to deliver reports and recommendations that prioritize customer needs, financial impact, and long-term sustainability for clients. I prioritize honesty, confidentiality, and collaboration in all aspects of my work. My ultimate goal is to contribute to creating a brighter future through continuous improvement and innovation.</p>
+        <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+            <ul>
+                <li><span>Software test management tools</span><br>Automation using Robot Framework, Jmeter, Postman and ALM Octane.</li>
+                <li><span>Front-end web development technologies</span><br>HTML, CSS, JavaScript and REACT.</li>
+                <li><span>Programming skills</span><br>R language, Python,Stata and SPSS.</li>
+                <li><span>Data Science,Data analysis and Data Visualization</span><br>Qlik Sense, Power BI, Tableau.</li>
+            </ul>
+        </div>
+        <div class="tab-contents" id="experience">
+            <ul>
+                <li><span>SAFARICOM PLC</span><br>SOFTWARE QUALITY ENGINEER-FINTECH</li>
+                <li><span>JUDICIARY OF KENYA-SIAYA LAW COURT</span><br>DATA CLERK</li>
+                <li><span>DELTA COOLING SYSTEMS LIMITED</span><br>DATA AND BUSINESS ANALYST</li>
+                <li><span>KENYA NATIONAL BUREAU OF STATISTICS</span><br>STATISTICAL COORDINATION AND RESEARCH ATTACHE’</li>
+                <li><span>KENYA NATIONAL BUREAU OF STATISTIC</span><br>ENUMERATOR</li>
+            </ul>
+        </div>
+        <div class="tab-contents" id="education">
+            <ul>
+                <li><span>JOMO KENYATTA UNIVERSITY OF AGRICULTURE AND TECHNOLOGY</span><br>BSC OPERATIONS RESEARCH(DATA SCIENCE SPECIALIZATION)</li>
+                <li><span>SACRED HEART COMPUTER COLLEGE</span><br>CERTIFICATE OF PROFICIENCY IN STATISTICAL DATA ANALYSIS SOFTWARE</li>
+            </ul>
+        </div>
+        </div>
+    </div>
+ </div>
+</div>
+
+<!--------------------------------portfolio---------------------------------------------------------->
+
+ <div id="portfolio">
+    <div class="container">
+        <h4 class="sub-title">My Work</h4>
+        <div class="work-list">
+            <div class="work">
+                <img src="/images/Cocktail.png">
+                <div class="layer">
+                    <h5>CockTail-DB</h5>
+                    <p>A "Cocktail DB" (Cocktail Database) is a structured collection of information about various cocktails.</p>
+                    <a href="https://cocktaildbapproject.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/images/dashboard.png">
+                <div class="layer">
+                    <h5>Shop Admin Dashboard</h5>
+                    <p>This dashboard includes functionalities such as products and inventory management.</p>
+                    <a href="https://administrationpanelproject.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/images/menu2.png">
+                <div class="layer">
+                    <h5>Restaurant Menu App</h5>
+                    <p>A menu app for a restaurant refers to a mobile application designed to showcase the restaurant's menu offerings, provide various functionalities such as reservation booking.</p>
+                    <a href="https://restaurantmenuawebsite.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/images/Stripe SubMenu Website.png">
+                <div class="layer">
+                    <h5>Stripe-Sub-Menus-Website</h5>
+                    <p>In the context of user interface (UI) design and web development, "stripe sub menus" refers to a specific design pattern for navigation menus.</p>
+                    <a href="https://stripesubmenuswebsite.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/images/RPA AUTOMATION RESULTS.png">
+                <div class="layer">
+                    <h5>Android App Automation</h5>
+                    <p>Android automation using Robot Framework typically involves interacting with Android apps via the Appium library, which provides support for automating native, hybrid, and mobile web applications on Android devices.</p>
+                    <a href="https://github.com/Enockodhis/MOBILE-APP-AUTOMATION-TESTS"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/images/Music Player Image.png">
+                <div class="layer">
+                    <h5>Music Player App</h5>
+                    <p>This Music Player App typically provide features such as organizing music libraries, creating playlists, equalizer settings and playback controls like play, pause, skip, and shuffle.</p>
+                    <a href="https://musicplayerprojectmp3.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/Enockodhis" class="btn">See More</a>
+    </div>
+ </div>
+
+ <!-------------------------------------------------------contacts----------------------------------------------------------->
+
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h6 class="sub-title">Contact Me</h6>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i> enockodhiambo2@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 0799179374</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/enock-odhiambo-4578871a0/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Enockodhis"><i class="fa-brands fa-square-github"></i></a>
+                    <a href="https://twitter.com/EnockOdhis21"><i class="fa-brands fa-square-x-twitter"></i></a>
+                </div>
+                <a href="/images/Enock Omondi Curriculum Vitae.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div> 
+    </div>
+    <div class="copyright">
+        <p>copyright <i class="fa-solid fa-copyright"></i> Enock <i class="fa-solid fa-trademark"></i></p>
+    </div>
+ </div>
+
+ <script src="/scripts.js"></script>
+</body>
+</html>
