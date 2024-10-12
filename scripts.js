@@ -53,7 +53,7 @@ form.addEventListener('submit', e => {
             msg.innerHTML = "Message sent successfully";
             setTimeout(function () {
                 msg.innerHTML = "";
-            }, 3000);
+            }, 2000);
             form.reset();
         })
         .catch(error => console.error('Error!', error.message));
